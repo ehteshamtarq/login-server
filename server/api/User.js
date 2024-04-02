@@ -2,7 +2,7 @@ const express = require("express");
 require("dotenv").config();
 const router = express.Router();
 const User = require("../models/User");
-const bcrypt = require("bcryptjs");
+const bcrypt = require('bcryptjs');
 const path = require("path");
 const nodemailer = require("nodemailer");
 const { v4: uuidv4 } = require("uuid");
