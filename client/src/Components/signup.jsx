@@ -83,7 +83,7 @@ const Login = () => {
       dateOfBirth: dob,
     };
 
-    const url = "http://localhost:3000/users/signup";
+    const url = "https://login-server-y81a.onrender.com/users/signup";
 
     try {
       const response = await axios.post(url, postData);
