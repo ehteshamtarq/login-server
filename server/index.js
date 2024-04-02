@@ -1,4 +1,4 @@
-require('./config/db');
+require('./config/db.js');
 require("dotenv").config();
 const app = require('express')();
 const port = 3000;
