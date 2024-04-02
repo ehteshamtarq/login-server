@@ -1,4 +1,4 @@
-require('./config/db');
+// require('./config/db');
 const app = require('express')();
 const port = 3000;
 const router = require("./api/User.js");
