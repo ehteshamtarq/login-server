@@ -1,7 +1,8 @@
-require('./config/db.js');
-require("dotenv").config();
+// require('./config/db.js');
+// require("dotenv").config();
 const app = require('express')();
-const port = process.env.port || 3000;
+// const port = process.env.port || 3000;
+const port = 3000;
 const router = require("./api/User.js");
 const morgan = require("morgan");
 const http = require('http');
