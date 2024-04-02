@@ -1,10 +1,9 @@
 // require('./config/db');
 const app = require('express')();
-const port = 3000;
+const port = process.env.port || 3000;
 const router = require("./api/User.js");
 const morgan = require("morgan");
 const cors = require('cors');
-
 
 
 const bodyParser = require('express').json;
