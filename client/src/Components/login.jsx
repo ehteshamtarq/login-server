@@ -50,7 +50,7 @@ const Login = () => {
     try {
       const response = await axios.post(url, postData);
       console.log(response.data);
-      navigate('/verify');
+      navigate('/verified');
     } catch (err) {
       console.log(err);
       const messageError = err.response.data.message;
