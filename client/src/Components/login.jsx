@@ -45,7 +45,7 @@ const Login = () => {
       password: password,
     };
 
-    const url = 'https://login-server-y81a.onrender.com/users/signup';
+    const url = 'https://login-server-y81a.onrender.com/users/signin';
     console.log("try");
     try {
       const response = await axios.post(url, postData);
