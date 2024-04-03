@@ -45,11 +45,6 @@ npm install
 npm start
 ```
 
-
-6. Access the application in your web browser at [http://localhost:5000](http://localhost:5000).
-
-7. You can access Swagger UI docs at [http://localhost:5000/api-docs](http://localhost:5000/api-docs)
-
 ## Deployment
 ### Server is deployed at render and client is deployed at vercel
 [Live](https://login-server-jfv6.vercel.app/)
