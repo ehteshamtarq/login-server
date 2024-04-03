@@ -109,7 +109,7 @@ const Login = () => {
   return (
     <div className={"mainContainer"}>
       <div className={"titleContainer"}>
-        <div>Signup</div>
+        <div>Sign Up</div>
       </div>
       <br />
       <div className={"inputContainer"}>
