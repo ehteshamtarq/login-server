@@ -30,9 +30,14 @@ npm start
 
 3. Configure the database connection in the backend. You can use MongoDB Atlas or a local MongoDB server.
 
-4. Provide your AUTH_MAIL and AUTH_PASSWORD for sending mail 
+4. Provide your AUTH_MAIL and AUTH_PASSWORD for sending mail(Backend)
+   
+- **Sign in to your google account** 
+- **Make sure 2FA is enabled**
+- **Open this link: [https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords)**
+- **click create and name it as 'nodemailer' a random strings will appear copy it and paste in .env**
 
-5. Start the frontend server:
+6. Start the frontend server:
 
 ```bash
 cd client
