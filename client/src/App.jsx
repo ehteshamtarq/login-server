@@ -4,6 +4,7 @@ import Login from './Components/login'
 import Signup from './Components/signup'
 import Verify from './Components/verify'
 import Error from './Components/error'
+import Verified from './Components/verified'
 import './App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/verify" element={<Verify />} />
           <Route path="/error" element={<Error />} />
+          <Route path="/verified" element={<Verified />} />
         </Routes>
       </BrowserRouter>
     </div>
