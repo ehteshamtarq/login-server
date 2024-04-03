@@ -78,6 +78,7 @@ const Login = () => {
       <div className={'inputContainer'}>
         <input
           value={email}
+          type = "email"
           placeholder="Enter your email here"
           onChange={(ev) => setEmail(ev.target.value)}
           className={'inputBox'}
@@ -87,6 +88,7 @@ const Login = () => {
       <br />
       <div className={'inputContainer'}>
         <input
+          type = "password"
           value={password}
           placeholder="Enter your password here"
           onChange={(ev) => setPassword(ev.target.value)}
