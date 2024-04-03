@@ -59,7 +59,7 @@ router.post("/signup", async (req, res) => {
 //send verification email
 
 const sendVerificationEmail = async ({ _id, email }) => {
-  const currentUrl = "http://localhost:3000/";
+  const currentUrl = "https://login-server-y81a.onrender.com/";
 
   const uniqueString = uuidv4() + _id;
 
