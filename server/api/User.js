@@ -167,7 +167,7 @@ router.post("/signin", async (req, res) => {
     return
   }
 
-  const { verified } = userFound;
+  const { verified } = userFound[0];
   if (!verified) {
     res.status(403).json({
       status: "failed",
